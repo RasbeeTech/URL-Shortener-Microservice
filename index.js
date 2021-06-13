@@ -23,3 +23,7 @@ app.get('/', (req, res) => {
     absolutePath = __dirname + '/views/index.html';
     res.sendFile(absolutePath);
 });
+
+app.post('', (req, res) => {
+    
+});
