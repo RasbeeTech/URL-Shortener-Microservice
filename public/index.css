@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+form {
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 600px;
+  }
+  input {
+    padding: 5px;
+  }
+  
+  input[type=text] {
+    width: 220px;
+    text-align: center;
+  }

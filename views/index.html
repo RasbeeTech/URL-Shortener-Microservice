@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/public/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>URL Shortener</title>
+  </head>
+  <body>
+      <h1>URL Shortener</h1>
+      <section>
+        <form action="api/shorturl" method="POST">
+          <fieldset>
+            <legend>URL Shortener Microservice</legend>
+            <label for="url_input">URL:</label>
+            <input id="url_input" type="text" name="url" placeholder="https://www.google.com/">
+            <input type="submit" value="POST URL">
+          </fieldset>
+        </form>
+      </section>
+      <hr />
+      <p>
+        Author: 
+        <a href="https://github.com/RasbeeTech/Request-Header-Parser-Microservice">
+            RasbeeTech
+        </a>
+      </p>
+  </body>
+</html>
