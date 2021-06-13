@@ -1,0 +1,16 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "Shortens URLs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "RasbeeTech",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
